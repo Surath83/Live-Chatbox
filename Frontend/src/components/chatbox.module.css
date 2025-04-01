@@ -1,0 +1,34 @@
+.chatContainer {
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgb(250, 225, 193); /* Your original background */
+    border-radius: 12px;
+    border: 1px solid black;
+    color: black;
+    text-align: left;
+}
+
+.chatBox {
+    height: 300px;
+    overflow-y: auto; /* Enables scrolling */
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255); /* White chat area */
+    border: 1px solid black;
+}
+
+.message {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: rgb(250, 225, 193); /* Restoring original style */
+    word-wrap: break-word; /* Handles long messages */
+    border: 1px solid black;
+}
+
+.empty {
+    text-align: center;
+    font-style: italic;
+    color: gray;
+}
