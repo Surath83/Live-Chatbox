@@ -7,7 +7,7 @@ function App() {
   return (
     <center>
       <div className="App">
-        <h1>UDP Chatbox</h1>
+        <h1>Live Chatbox</h1>
         <Chatbox />
         <Input />
       </div>

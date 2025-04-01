@@ -23,7 +23,7 @@ function Chatbox() {
     };
 
     fetchMessages();
-    const interval = setInterval(fetchMessages, 1);
+    const interval = setInterval(fetchMessages, 100);
     return () => clearInterval(interval);
   }, []);
 
